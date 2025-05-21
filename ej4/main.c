@@ -31,6 +31,7 @@ List setup_example() {
     
     a_node->data = 0;
     a_node->next = NULL;
+    a_node = NULL;
 
     return my_list;
 }
